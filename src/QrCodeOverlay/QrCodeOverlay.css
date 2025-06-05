@@ -1,0 +1,31 @@
+.hidden {
+    display: none;
+}
+
+.overlay {
+    position: fixed;
+    top: 0;
+
+    width: 100vw;
+    height: 100vh;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background-color: rgba(37, 37, 37, .8);
+}
+
+#qr-code {
+    width: min(80vh, 80vw);
+    aspect-ratio: 1;
+
+    border-radius: 15px;
+}
+
+.no-overflow {
+    overflow: hidden;
+
+    width: 100vw;
+    height: 100vh;
+}
