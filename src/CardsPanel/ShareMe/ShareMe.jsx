@@ -13,7 +13,7 @@ export function ShareMe() {
   return (
     <div className='card' id='share-me'>
       <h1>Condividimi</h1>
-      <p>Spargi la voce .-.</p>
+      <p>Spargi la voce</p>
       <button onClick={() => showQrCode()}>Codice QR</button>
     </div>
   );
