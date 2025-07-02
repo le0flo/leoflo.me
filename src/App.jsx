@@ -1,8 +1,9 @@
 import userLogo from '/user.jpg'
 import './App.css'
 import { LinksPanel } from './LinksPanel/LinksPanel'
-import { CardsPanel } from './CardsPanel/CardsPanel'
 import { QrCodeOverlay } from './QrCodeOverlay/QrCodeOverlay'
+import { Introduction } from './Introduction/Introduction'
+import { Projects } from './Projects/Projects'
 
 export function App() {
   return (
@@ -11,7 +12,8 @@ export function App() {
       <h1 id='user-name'>Leonardo</h1>
 
       <LinksPanel></LinksPanel>
-      <CardsPanel></CardsPanel>
+      <Introduction></Introduction>
+      <Projects></Projects>
       <QrCodeOverlay></QrCodeOverlay>
     </>
   )

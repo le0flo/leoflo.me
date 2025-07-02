@@ -16,3 +16,12 @@
 #user-name {
     text-align: center;
 }
+
+.paragraph {
+    margin: 50px 0;
+
+    width: 60vw;
+    min-width: 300px;
+
+    font-size: 20px;
+}

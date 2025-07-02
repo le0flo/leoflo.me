@@ -1,0 +1,20 @@
+#projects>h1 {
+    margin-bottom: 50px;
+}
+
+#projects a {
+    color: #aad0ff;
+
+    font-size: 20px;
+}
+
+
+#projects a:hover {
+    color: #0ad0ff;
+
+    font-size: 20px;
+}
+
+#projects li {
+    margin: 20px 0;
+}

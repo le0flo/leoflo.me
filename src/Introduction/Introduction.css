@@ -1,0 +1,12 @@
+#introduction>a {
+    color: #ffd0af;
+
+    font-size: 20px;
+}
+
+
+#introduction>a:hover {
+    color: #fad06f;
+
+    font-size: 20px;
+}
