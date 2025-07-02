@@ -1,12 +1,12 @@
-#introduction>a {
-    color: #ffd0af;
+#introduction a {
+    color:  hsl(42, 93%, 81%);
 
     font-size: 20px;
 }
 
 
-#introduction>a:hover {
-    color: #fad06f;
+#introduction a:hover {
+    color:  hsl(42, 73%, 71%);
 
     font-size: 20px;
 }

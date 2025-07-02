@@ -4,6 +4,7 @@ import { LinksPanel } from './LinksPanel/LinksPanel'
 import { QrCodeOverlay } from './QrCodeOverlay/QrCodeOverlay'
 import { Introduction } from './Introduction/Introduction'
 import { Projects } from './Projects/Projects'
+import { Curriculum } from './Curriculum/Curriculum'
 
 export function App() {
   return (
@@ -14,6 +15,7 @@ export function App() {
       <LinksPanel></LinksPanel>
       <Introduction></Introduction>
       <Projects></Projects>
+      <Curriculum></Curriculum>
       <QrCodeOverlay></QrCodeOverlay>
     </>
   )

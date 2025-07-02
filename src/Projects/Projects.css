@@ -1,18 +1,20 @@
-#projects>h1 {
-    margin-bottom: 50px;
+#projects h1 {
+    margin: 20px 0;
 }
 
 #projects a {
-    color: #aad0ff;
+    padding: 5px;
 
-    font-size: 20px;
+    background-color: hsl(213, 100%, 83%);
+    color: #373737;
+
+    border-radius: 5px;
+
+    font-size: 15px;
 }
 
-
 #projects a:hover {
-    color: #0ad0ff;
-
-    font-size: 20px;
+    background-color: hsl(213, 80%, 73%);
 }
 
 #projects li {
