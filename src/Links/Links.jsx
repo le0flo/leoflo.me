@@ -1,17 +1,21 @@
-import './LinksPanel.css'
+import "./Links.css"
 
 function showQrCode() {
-  let qr_code_overlay = document.getElementById('qr-code-overlay');
+  let qr_code_overlay = document.getElementById("qr-code-overlay");
 
   if (qr_code_overlay) {
-    qr_code_overlay.classList.remove('hidden');
-    qr_code_overlay.classList.add('overlay');
+    qr_code_overlay.classList.remove("hidden");
+    qr_code_overlay.classList.add("overlay");
   }
 }
 
-export function LinksPanel() {
+export function Links() {
   return (
-    <div className='links-panel'>
+    <div className="links-list">
+      <button className="icon" onClick={() => showQrCode()}>
+        <i class="fa-solid fa-qrcode"></i>
+      </button>
+
       <a href="https://www.linkedin.com/in/leoflo">
         <i className="fa-brands fa-linkedin"></i>
       </a>
@@ -23,10 +27,6 @@ export function LinksPanel() {
       <a href="https://instagram.com/le0flo">
         <i className="fa-brands fa-instagram"></i>
       </a>
-
-      <button className="icon" onClick={() => showQrCode()}>
-        <i class="fa-solid fa-qrcode"></i>
-      </button>
     </div>
   );
 };

@@ -1,12 +1,11 @@
-#introduction a {
-    color:  hsl(42, 93%, 81%);
-
+#introduction * {
     font-size: 20px;
 }
 
+#introduction a {
+    color: hsl(42, 93%, 71%);
+}
 
 #introduction a:hover {
-    color:  hsl(42, 73%, 71%);
-
-    font-size: 20px;
+    color: #fae0df;
 }
