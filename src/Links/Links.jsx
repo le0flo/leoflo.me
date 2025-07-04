@@ -13,7 +13,7 @@ export function Links() {
   return (
     <div className="links-list">
       <button className="icon" onClick={() => showQrCode()}>
-        <i class="fa-solid fa-qrcode"></i>
+        <i className="fa-solid fa-qrcode"></i>
       </button>
 
       <a href="https://www.linkedin.com/in/leoflo">
