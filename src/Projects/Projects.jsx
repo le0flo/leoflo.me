@@ -1,6 +1,5 @@
 import "./Projects.css"
 import { SimpleAccounts } from "./SimpleAccounts";
-import { FastOrders } from "./FastOrders";
 import { Appunti } from "./Appunti";
 
 export function Projects() {
@@ -10,7 +9,6 @@ export function Projects() {
 
       <div className="projects-list">
         <SimpleAccounts></SimpleAccounts>
-        <FastOrders></FastOrders>
         <Appunti></Appunti>
       </div>
     </div>
