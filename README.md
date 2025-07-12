@@ -4,7 +4,13 @@
 
 - [NodeJS](https://nodejs.org/en)
 
-### Compilation
+### Installation
 
 1. Initialize the environment with `npm install`
-2. Generate the bundle with `npm run build`
+
+### Usage
+
+```sh
+cd leoflo.me
+npm run build # Generates a static website under the 'dist/' folder that can be served by any http server
+```
