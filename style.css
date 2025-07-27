@@ -31,14 +31,18 @@ body {
 
 a, b {
     color: #3e76a1;
+
+    &:focus {
+        outline: none;
+    }
 }
 
 ul {
     list-style-type: square;
+}
 
-    & > li::marker {
-        color: #adadad;
-    }
+li::marker {
+    color: #adadad;
 }
 
 #root {
@@ -46,6 +50,7 @@ ul {
 
     display: flex;
     flex-direction: column;
+    place-items: center;
     gap: 20px;
 
     & > div {
