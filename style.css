@@ -5,9 +5,9 @@
 
 :root {
   --background: #333333;
-  --text: #ededed;
-  --secondary: #adadad;
-  --accent: #43ef32;
+  --text: #f7ede2;
+  --secondary: #99d98c;
+  --accent: #99d98c;
 }
 
 * {
