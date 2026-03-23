@@ -1,0 +1,15 @@
+services:
+  prod-nginx:
+    container_name: "website-prod-nginx"
+
+    image: "website-prod-nginx"
+    build:
+      context: ..
+      dockerfile: Dockerfile
+
+    volumes:
+      - "/var/lib/git:/srv/git:ro"
+
+    ports:
+      - "127.0.0.1:8001:8001"
+      - "127.0.0.1:8002:8002"

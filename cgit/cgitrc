@@ -1,0 +1,71 @@
+enable-index-owner=1
+enable-http-clone=1
+enable-index-links=1
+enable-commit-graph=1
+enable-log-linecount=1
+enable-blame=1
+
+# General
+root-title=Leonardo's projects
+root-desc=Tracking the repositories of leoflo.
+clone-url=https://code.leoflo.me/$CGIT_REPO_URL
+snapshots=tar.gz zip
+scan-path=/srv/git
+virtual-root=/
+
+# Dependencies
+css=/assets/cgit.css
+favicon=/assets/favicon.ico
+logo=/assets/logo.png
+logo-link=https://leoflo.me
+
+# Filters
+about-filter=/srv/cgit/filters/about-formatting.sh
+commit-filter=/srv/cgit/filters/commit-links.sh
+source-filter=/srv/cgit/filters/syntax-highlighting.py
+email-filter=/srv/cgit/filters/email-gravatar.py
+
+##
+## List of common mimetypes
+##
+
+mimetype.gif=image/gif
+mimetype.html=text/html
+mimetype.jpg=image/jpeg
+mimetype.jpeg=image/jpeg
+mimetype.pdf=application/pdf
+mimetype.png=image/png
+mimetype.svg=image/svg+xml
+
+##
+## List of common readme files
+##
+
+readme=:README.md
+readme=:readme.md
+readme=:README.mkd
+readme=:readme.mkd
+readme=:README.rst
+readme=:readme.rst
+readme=:README.html
+readme=:readme.html
+readme=:README.htm
+readme=:readme.htm
+readme=:README.txt
+readme=:readme.txt
+readme=:README
+readme=:readme
+readme=:INSTALL.md
+readme=:install.md
+readme=:INSTALL.mkd
+readme=:install.mkd
+readme=:INSTALL.rst
+readme=:install.rst
+readme=:INSTALL.html
+readme=:install.html
+readme=:INSTALL.htm
+readme=:install.htm
+readme=:INSTALL.txt
+readme=:install.txt
+readme=:INSTALL
+readme=:install

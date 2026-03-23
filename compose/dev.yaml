@@ -1,0 +1,15 @@
+services:
+  dev-nginx:
+    container_name: "website-dev-nginx"
+
+    image: "website-dev-nginx"
+    build:
+      context: ..
+      dockerfile: Dockerfile
+
+    volumes:
+      - "../test:/srv/git:ro"
+
+    ports:
+      - "127.0.0.1:8001:8001"
+      - "127.0.0.1:8002:8002"
