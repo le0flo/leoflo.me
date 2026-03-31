@@ -14,10 +14,10 @@ scan-path=/srv/git
 virtual-root=/
 
 # Dependencies
+js=/assets/cgit.js
 css=/assets/cgit.css
 favicon=/assets/favicon.ico
-logo=/assets/logo.png
-logo-link=https://leoflo.me
+logo=/assets/cgit.png
 
 # Filters
 about-filter=/srv/cgit/filters/about-formatting.sh

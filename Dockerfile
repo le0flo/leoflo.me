@@ -21,8 +21,8 @@ COPY ./cgit/cgitrc /etc/cgitrc
 COPY --from=builder /src/cgit-master/cgit /srv/cgit/cgit.cgi
 COPY --from=builder /src/cgit-master/cgit.js /srv/cgit/assets/cgit.js
 COPY --from=builder /src/cgit-master/cgit.css /srv/cgit/assets/cgit.css
+COPY --from=builder /src/cgit-master/cgit.png /srv/cgit/assets/cgit.png
 COPY --from=builder /src/cgit-master/favicon.ico /srv/cgit/assets/favicon.ico
-COPY ./src/assets/icon-180x180.png /srv/cgit/assets/logo.png
 
 COPY --from=builder /src/cgit-master/filters /srv/cgit/filters
 
